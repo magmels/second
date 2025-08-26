@@ -5,7 +5,5 @@ class Student(var name : String = "", var age : Int = 0) {
         this.age = stud[1].toInt()
     }
 
-    fun printInfo() {
-        println("Name: $name, Age: $age")
-    }
+    fun printInfo() = println("Name: $name, Age: $age")
 }
